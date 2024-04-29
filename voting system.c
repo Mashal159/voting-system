@@ -1,6 +1,4 @@
-#البرنامج بتاعي العظيم جدا جدا جدا
-
-#احترس من العظمهههه
+#Made by Mashal159 in august 2022
 
 
 def inputcheck(x):          #check if the user enters the input or not
@@ -99,7 +97,6 @@ def countvots(cand_list,votinglist):
                     j.set_VoteNum()
                     break    #remove eleminated candidates votes from ballot        
             
-#عظمة بقولك              
 
 
 #function to check if there is a winner
@@ -116,7 +113,6 @@ def winner(list,votinglist):
         
     return check
 
-#بص يقى الحته اللي جايه دي
 
 #function to check if their is tie and if not return minimum votes 
 def find_max_min(cand_list):
@@ -183,7 +179,6 @@ def removeZeros(cand_list):
         if i.get_votes()!=0: newlist.append(i)
     return newlist
 
-#نبدا البرنامج بقى عشان كفايه؟ صلي على النبي 
 
 print("read requirments carfully")
 #loob of the whole program
@@ -244,8 +239,3 @@ while True:
     if new != "yes":
         break
     
-
-#خلص الحمد لله    
-
-#توقيع   المبرمج المعقد:                   مشعل
- 
